@@ -525,7 +525,8 @@ ol {
 	margin-bottom: 32px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	/*background-color: #eb8a3f;*/
+	background-color: #f09956;
+	font-family: Arial;
 }
 
 .ha-text p {
