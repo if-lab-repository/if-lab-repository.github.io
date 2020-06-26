@@ -400,9 +400,10 @@ ol {
 
 .hero-section .hero-text span {
 	font-size: 20px;
-	color: #f44949;
+	color: #000000;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	background-color: #ffffff;
 }
 
 .hero-section .hero-text h2 {
