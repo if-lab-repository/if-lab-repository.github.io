@@ -133,7 +133,7 @@ ol {
 
 .set-bg {
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1200px;
 	background-position: top center;
 }
 
@@ -171,8 +171,8 @@ ol {
 .price-item .tr-tag,
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: -o-linear-gradient(330deg, #04dbd1 0%, #018a41 100%), -o-linear-gradient(330deg, #04dbd1 0%, #018a41 100%);
+	background-image: linear-gradient(120deg, #04dbd1 0%, #018a41 100%), linear-gradient(120deg, #04dbd1 0%, #018a41 100%);
 }
 
 /* buttons */
@@ -185,9 +185,9 @@ ol {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41)), -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41));
+	background-image: -o-linear-gradient(left, #04dbd1 0%, #018a41 100%), -o-linear-gradient(left, #04dbd1 0%, #018a41 100%);
+	background-image: linear-gradient(to right, #04dbd1 0%, #018a41 100%), linear-gradient(to right, #04dbd1 0%, #018a41 100%);
 }
 
 .site-btn {
@@ -399,7 +399,7 @@ ol {
 }
 
 .hero-section .hero-text span {
-	font-size: 16px;
+	font-size: 20px;
 	color: #f44949;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -498,7 +498,7 @@ ol {
 }
 
 .ha-text {
-	padding-top: 74px;
+	padding-top: 0px;
 }
 
 .ha-text h2 {
@@ -509,7 +509,7 @@ ol {
 }
 
 .ha-text p {
-	margin-bottom: 21px;
+	margin-bottom: 22px;
 }
 
 .ha-text ul {
@@ -1410,9 +1410,9 @@ ol {
 }
 
 .testimonial-slider.owl-carousel .owl-nav button:hover {
-	background: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background: -o-linear-gradient(left, #ee8425, #f9488b);
-	background: linear-gradient(to right, #ee8425, #f9488b);
+	background: -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41));
+	background: -o-linear-gradient(left, #04dbd1, #018a41);
+	background: linear-gradient(to right, #04dbd1, #018a41);
 	color: #ffffff;
 }
 
@@ -1527,8 +1527,8 @@ ol {
 }
 
 .speaker-item .si-text .si-social a:hover {
-	background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	background: linear-gradient(120deg, #ee8425, #f9488b);
+	background: -o-linear-gradient(330deg, #04dbd1, #018a41);
+	background: linear-gradient(120deg, #04dbd1, #018a41);
 	color: #ffffff;
 }
 
@@ -1655,8 +1655,8 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover {
-	background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-	background: linear-gradient(120deg, #ee8425, #f9488b);
+	background: -o-linear-gradient(330deg, #04dbd1, #018a41);
+	background: linear-gradient(120deg, #04dbd1, #018a41);
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover h5 {
