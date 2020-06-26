@@ -396,12 +396,13 @@ ol {
 
 .hero-section {
 	/*padding-top: 55px;*/
-	font-family: Arial;
+	font-family: Times New Roman;
 }
 
 .hero-section .hero-text {
 	padding-top: 80px;
 	padding-bottom: 500px;
+	font-family: Times New Roman;
 }
 
 .hero-section .hero-text span {
@@ -413,16 +414,19 @@ ol {
 	margin-left: 40px;
 	background-color: #ffffff;
 
+
 }
 
 .hero-section .hero-text h2 {
-	font-size: 60px;
+	font-size: 65px;
 	color: #000000;
 	line-height: 80px;
 	font-weight: 600;
 	margin-left: 40px;
 	margin-top: 10px;
 	margin-bottom: 35px;
+	font-family: Times New Roman;
+/*	background-color:#ffffff;*/
 
 	
 }
