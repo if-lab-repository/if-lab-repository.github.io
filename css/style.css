@@ -133,7 +133,7 @@ ol {
 
 .set-bg {
 	background-repeat: no-repeat;
-	background-size: 1140px 550px;
+	background-size: 1140px 480px;
 	background-position: top center;
 
 }
@@ -413,6 +413,7 @@ ol {
 	color: #ffffff;
 	letter-spacing: 2px;
 	margin-left: 40px;
+	text-shadow: 0 0 0.2em #000000;
 	/*background-color: #c9fffd;*/
 	/*text-transform: uppercase;*/
 }
@@ -426,6 +427,7 @@ ol {
 	margin-top: 10px;
 	margin-bottom: 35px;
 	font-family: Times New Roman;
+	text-shadow: 0 0 0.2em #ffffff;
 /*	background-color:#ffffff;*/
 
 	
@@ -435,9 +437,19 @@ ol {
   Conter
 -----------------------*/
 
+
+timer {
+  position: relative;
+  top: 30px;
+  left: 200px;
+  border: 3px solid #ffffff;
+  font-size: 35px;
+}
+
+
 .counter-section {
 	padding: 10px 0px;
-	height: 120px;
+	height: 125px;
   	width: 1140px;
   	margin-left: auto;
   	margin-right: auto;
@@ -1305,11 +1317,20 @@ ol {
 }
 
 .about-section .section-title h2 {
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
+
+	color: #171822;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-family: Arial;
 }
 
 .about-section .section-title p {
 	font-size: 16px;
+	text-align: justify
 }
 
 .about-section .section-title p.f-para {
