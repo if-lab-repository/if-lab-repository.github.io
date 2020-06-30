@@ -139,15 +139,18 @@ ol {
 }
 
 .spad {
-	/*padding-top: 100px;*/
-	padding-bottom: 50px;
-	padding-left: 350px;
-	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
 }
 
 .spad-2 {
 	/*padding-top: 50px;*/
 	padding-bottom: 70px;
+}
+.spad-3 {
+	padding-left: 350px;
+	padding-bottom: 30px;
+	
 }
 
 .text-white h1,
