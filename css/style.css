@@ -147,11 +147,7 @@ ol {
 	/*padding-top: 50px;*/
 	padding-bottom: 70px;
 }
-.spad-3 {
-	padding-left: 500px;
-/*	padding-right: 200px;*/
-	padding-bottom: 30px;
-}
+
 
 .text-white h1,
 .text-white h2,
@@ -800,6 +796,30 @@ timer {
 	left: 0;
 	top: 7px;
 }
+
+
+.spad-3 {
+	padding-left: 800px;
+/*	padding-right: 200px;*/
+	padding-bottom: 30px;
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zv4m{border-color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-1d37{background-color:#ffcc67;border-color:inherit;color:#212529;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-4i5w{background-color:#018a41;border-color:inherit;font-size:20px;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-skcd{background-color:#04dbd1;border-color:inherit;color:#333;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-ink9{background-color:#04dbd1;border-color:inherit;color:#212529;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-g2t5{background-color:#018a41;border-color:#212529;color:#212529;font-size:20px;text-align:center;vertical-align:middle}
+.tg .tg-ms7u{background-color:#04dbd1;border-color:#212529;color:#212529;font-size:16px;text-align:center;vertical-align:top}
+
+
+
 
 /*---------------------
   Pricing Section
