@@ -133,7 +133,7 @@ ol {
 
 .set-bg {
 	background-repeat: no-repeat;
-	background-size: 1140px 480px;
+	background-size: 1140px;
 	background-position: top center;
 
 }
@@ -403,7 +403,7 @@ ol {
 
 .hero-section .hero-text {
 	padding-top: 40px;
-	padding-bottom: 210px;
+	padding-bottom: 140px;
 	font-family: Times New Roman;
 }
 
@@ -420,13 +420,13 @@ ol {
 }
 
 .hero-section .hero-text h2 {
-	font-size: 65px;
+	font-size: 55px;
 	color: #000000;
 	line-height: 80px;
-	font-weight: 600;
+	font-weight: 700;
 	margin-left: 40px;
 	margin-top: 10px;
-	margin-bottom: 35px;
+	/*margin-bottom: 35px;*/
 	font-family: Times New Roman;
 	text-shadow: 0 0 0.2em #ffffff;
 /*	background-color:#ffffff;*/
