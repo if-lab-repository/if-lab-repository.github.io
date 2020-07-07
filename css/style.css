@@ -145,7 +145,7 @@ ol {
 
 .spad-2 {
 	/*padding-top: 50px;*/
-	padding-bottom: 70px;
+	/*padding-bottom: 70px;*/
 }
 
 
@@ -539,7 +539,7 @@ timer {
 -----------------------*/
 
 .home-about-section {
-	padding-bottom: 90px;
+	/*padding-bottom: 90px;*/
 }
 
 .ha-pic {
@@ -1127,6 +1127,12 @@ timer {
 .contact-section .section-title {
 	text-align: left;
 	margin-bottom: 40px;
+
+}
+
+.section-title h2 {
+	font-size: 32px;
+	font-family: Arial;
 }
 
 .cs-text .ct-address span {
