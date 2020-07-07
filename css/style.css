@@ -1404,17 +1404,17 @@ timer {
 	color: #171822;
 	font-size: 20px;
 	font-weight: 600;
-	/*margin-bottom: 10px;*/
+	margin-bottom: 5px;
 	padding-top: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	font-family: Arial;
 }
 
 .about-section .section-title h2 {
 	color: #171822;
-	font-size: 26px;
+	font-size: 25px;
 	font-weight: 600;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	font-family: Arial;
