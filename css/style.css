@@ -559,7 +559,7 @@ timer {
 
 .ha-text h2 {
 	color: #171822;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -686,13 +686,13 @@ timer {
 -----------------------*/
 
 .schedule-section {
-	padding-bottom: 60px;
+	/*padding-bottom: 60px;*/
 }
 
 .schedule-tab .nav-tabs {
 	border: none;
 	border-radius: 2px;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
 	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
 }
