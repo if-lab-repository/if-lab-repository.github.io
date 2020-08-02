@@ -756,7 +756,14 @@ timer {
 
 .schedule-tab .nav-tabs .nav-item .nav-link h5 {
 	color: #171822;
-	font-weight: 600;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.schedule-tab .nav-tabs .nav-item .nav-link h6 {
+	color: #171822;
+	font-weight: 700;
+	font-size: 18px;
 }
 
 .schedule-tab .nav-tabs .nav-item .nav-link p {
