@@ -577,6 +577,17 @@ timer {
 	font-family: Arial;
 }
 
+.ha-text h1 {
+	color: #171822;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: Arial;
+}
+
+
 
 .ha-text p {
 	margin-bottom: 10px;
@@ -2236,11 +2247,14 @@ timer {
 
 .contact-content-section {
 	overflow: hidden;
+	margin-left: 413px;
+	margin-right: 413px;
+/*	background-size: 1140px;*/
 }
 
 .cc-text {
 	height: 400px;
-	margin-left: -15px;
+	margin-left: -250px;
 	margin-right: -15px;
 	padding-top: 10px;
 }
