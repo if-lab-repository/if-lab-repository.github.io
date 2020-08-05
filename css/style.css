@@ -2256,14 +2256,15 @@ timer {
 .cc-text {
 	height: 400px;
 	width: 650px;
-	margin-left: -350px;
+	margin-left: -285px;
 	/*margin-right: -15px;*/
 	padding-top: 10px;
 }
 
 .cc-text .section-title {
 	text-align: left;
-	margin-bottom: 42px;
+	margin-left: -200px;
+	margin-bottom: 30px;
 }
 
 .cc-text .section-title h2 {
@@ -2275,14 +2276,17 @@ timer {
 }
 
 .cc-text .cs-text .ct-address span {
+	margin-left: -200px;
 	color: #ffffff;
 }
 
 .cc-text .cs-text .ct-address p {
+	margin-left: -200px;
 	color: #ffffff;
 }
 
 .cc-text .cs-text ul li {
+	/*margin-left: -100px;*/
 	color: #ffffff;
 }
 
@@ -2291,10 +2295,12 @@ timer {
 }
 
 .cc-text .cs-text .ct-links span {
+	margin-left: -200px;
 	color: #ffffff;
 }
 
 .cc-text .cs-text .ct-links p {
+	margin-left: -200px;
 	color: #ffffff;
 }
 
