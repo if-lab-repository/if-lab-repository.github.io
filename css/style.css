@@ -135,7 +135,6 @@ ol {
 	background-repeat: no-repeat;
 	background-size: 1140px;
 	background-position: top center;
-
 }
 
 .spad {
@@ -2246,16 +2245,19 @@ timer {
 -----------------------*/
 
 .contact-content-section {
-	overflow: hidden;
-	margin-left: 413px;
-	margin-right: 413px;
-/*	background-size: 1140px;*/
+/*	overflow: hidden;
+	margin-left: 20%;
+	margin-right: 20%;*/
+	margin-left: auto;
+  	margin-right: auto;
+	width: 600px;
 }
 
 .cc-text {
 	height: 400px;
-	margin-left: -250px;
-	margin-right: -15px;
+	width: 670px;
+	margin-left: -480px;
+	/*margin-right: -15px;*/
 	padding-top: 10px;
 }
 
