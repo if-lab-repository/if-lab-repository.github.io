@@ -177,6 +177,51 @@ ol {
 
 }
 
+
+/* Speaker */
+
+.bg-gra,
+.bd-text .bd-tag-share .s-share a:hover,
+.bh-text .play-btn,
+.schedule-table-tab .nav-tabs .nav-item .nav-link.active,
+.newslatter-inner .ni-form button,
+.latest-item .li-tag,
+.price-item .price-btn:hover,
+.price-item .pi-price,
+.price-item .tr-tag,
+.schedule-tab .nav-tabs .nav-item .nav-link.active,
+.site-btn {
+	background-image: -o-linear-gradient(330deg, #04dbd1 0%, #04dbd1 100%), -o-linear-gradient(330deg, #04dbd1 0%, #04dbd1 100%);
+	background-image: linear-gradient(120deg, #04dbd1 0%, #04dbd1 100%), linear-gradient(120deg, #04dbd1 0%, #04dbd1 100%);
+
+}
+
+
+.speaker-section {
+	padding: 10px 0px;
+	height: 125px;
+  	width: 1140px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 20px;
+
+}
+
+.speaker-section .speaker-text span {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.speaker-section .speaker-text h3 {
+	color: #0522a1;
+	/*font-size: 20px;*/
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+
+
 /* buttons */
 
 .primary-btn {
@@ -461,19 +506,6 @@ timer {
   	margin-bottom: 20px;
 
 }
-
-/*.counter-section .counter-text span {
-	font-size: 16px;
-	color: #ffffff;
-}
-
-.counter-section .counter-text h3 {
-	color: #ffffff;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 30px;
-	margin-top: 5px;
-}*/
 
 .counter-section .counter-text span {
 	font-size: 20px;
@@ -2663,6 +2695,12 @@ timer {
 }
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
 
 
 nav > .nav.nav-tabs{
