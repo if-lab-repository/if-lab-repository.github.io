@@ -178,47 +178,115 @@ ol {
 }
 
 
-/* Speaker */
-
-.bg-gra,
-.bd-text .bd-tag-share .s-share a:hover,
-.bh-text .play-btn,
-.schedule-table-tab .nav-tabs .nav-item .nav-link.active,
-.newslatter-inner .ni-form button,
-.latest-item .li-tag,
-.price-item .price-btn:hover,
-.price-item .pi-price,
-.price-item .tr-tag,
-.schedule-tab .nav-tabs .nav-item .nav-link.active,
-.site-btn {
-	background-image: -o-linear-gradient(330deg, #04dbd1 0%, #04dbd1 100%), -o-linear-gradient(330deg, #04dbd1 0%, #04dbd1 100%);
-	background-image: linear-gradient(120deg, #04dbd1 0%, #04dbd1 100%), linear-gradient(120deg, #04dbd1 0%, #04dbd1 100%);
-
+/* open */
+.bg-grao,
+.site-btns {
+	background-image: -o-linear-gradient(330deg,#515454 0%,#515454 100%), -o-linear-gradient(330deg,#515454 0%,#515454 100%);
+	background-image: linear-gradient(120deg,#515454 0%,#515454 100%), linear-gradient(120deg,#515454 0%,#515454 100%);
 }
-
-
-.speaker-section {
-	padding: 10px 0px;
-	height: 125px;
+.open-section {
+	/*padding: 10px 0px;*/
+	height: 70px;
   	width: 1140px;
   	margin-left: auto;
   	margin-right: auto;
-  	margin-bottom: 20px;
+  	/*margin-bottom: 20px;*/
 
 }
+.open-section .open-text span {
+	font-size: 20px;
+	color: #ffffff;
+}
+.open-section .open-text h3 {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Georgia";
+	text-align: left;
+	margin-top: 20px;
+}
+/* open */
 
-.speaker-section .speaker-text span {
+/* Talk */
+.bg-grat,
+.site-btnt {
+	background-image: -o-linear-gradient(330deg, #d5dedd 0%, #d5dedd 100%), -o-linear-gradient(330deg, #d5dedd 0%, #d5dedd 100%);
+	background-image: linear-gradient(120deg, #d5dedd 0%, #d5dedd 100%), linear-gradient(120deg, #d5dedd 0%, #d5dedd 100%);
+}
+.talk-section {
+	/*padding: 10px 0px;*/
+	height: 180px;
+  	width: 1140px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	/*margin-bottom: 20px;*/
+}
+
+.talk-section .talk-text span {
 	font-size: 20px;
 	color: #ffffff;
 }
 
-.speaker-section .speaker-text h3 {
-	color: #0522a1;
-	/*font-size: 20px;*/
-	font-weight: 400;
-	line-height: 30px;
-	margin-top: 10px;
+.talk-section .talk-text h2 {
+	color: #005bf7;
+	font-size: 20px;
+	margin-left: 20px;
+	text-align: left;
+	line-height:40px;
 }
+
+.talk-section .talk-text h3 {
+	color: #005bf7;
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	line-height:40px;
+}
+
+/* talk */
+
+
+/* cut */
+.bg-gratc,
+.site-btnc {
+	background-image: -o-linear-gradient(330deg, #d5dedd 0%, #d5dedd 100%), -o-linear-gradient(330deg, #d5dedd 0%, #d5dedd 100%);
+	background-image: linear-gradient(120deg, #d5dedd 0%, #d5dedd 100%), linear-gradient(120deg, #d5dedd 0%, #d5dedd 100%);
+}
+.cut-section {
+	/*padding: 10px 0px;*/
+	height: 20px;
+  	width: 1140px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	/*margin-bottom: 20px;*/
+}
+
+.cut-section .talk-text span {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.cut-section .cut-text h2 {
+	color: #005bf7;
+	font-size: 20px;
+	margin-left: 20px;
+	text-align: left;
+	line-height:40px;
+}
+
+.cut-section .cut-text h3 {
+	color: #005bf7;
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	line-height:40px;
+}
+
+/* cut */
 
 
 
