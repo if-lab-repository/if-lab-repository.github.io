@@ -232,18 +232,21 @@ ol {
 	color: #007acc;
 	font-size: 20px;
 	margin-left: 20px;
+	font-weight: 600;
 	text-align: left;
 	line-height:40px;
+	font-family: Times New Roman;
 }
 
 .talk-section .talk-text h3 {
 	color: #007acc;
-	font-size: 20px;
+	font-size: 25px;
 	margin-left: 20px;
-	font-weight: bold;
+	font-weight: 900;
 	text-align: left;
 	margin-top: 10px;
 	line-height:40px;
+	font-family: Times New Roman;
 }
 
 /* talk */
