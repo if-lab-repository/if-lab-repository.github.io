@@ -113,6 +113,10 @@ ol {
   Helper CSS
 -----------------------*/
 
+/*.fa_custom {
+	color: #0099CC
+}*/
+
 .section-title {
 	text-align: center;
 	margin-bottom: 52px;
@@ -134,7 +138,9 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: 1140px;
+	/*padding-bottom: 428px;*/
 	background-position: top center;
+	margin-bottom: 0;
 }
 
 .spad {
@@ -182,8 +188,8 @@ ol {
 /* open */
 .bg-grao,
 .site-btns {
-	background-image: -o-linear-gradient(330deg, #595959 0%, #595959 100%), -o-linear-gradient(330deg, #595959 0%, #595959 100%);
-	background-image: linear-gradient(120deg, #595959 0%, #595959 100%), linear-gradient(120deg, #595959 0%, #595959 100%);
+	background-image: -o-linear-gradient(330deg, #04dbd1 0%, #018a41 100%), -o-linear-gradient(330deg, #595959 0%, #595959 100%);
+	background-image: linear-gradient(120deg, #04dbd1 0%, #018a41 100%), linear-gradient(120deg, #595959 0%, #595959 100%);
 }
 .open-section {
 	/*padding: 10px 0px;*/
@@ -207,6 +213,40 @@ ol {
 	margin-top: 15px;
 }
 /* open */
+
+/* Open Talk  */
+
+.Otalk-section {
+	/*padding: 10px 0px;*/
+	height: 140px;
+  	width: 1140px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	/*margin-bottom: 20px;*/
+}
+
+.Otalk-section .Otalk-text h2 {
+	color: #007acc;
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: 600;
+	text-align: left;
+	line-height:40px;
+	font-family: Times New Roman;
+}
+
+.Otalk-section .Otalk-text h3 {
+	color: #007acc;
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: 900;
+	text-align: left;
+	margin-top: 10px;
+	line-height:40px;
+	font-family: Times New Roman;
+}
+
+/* Open talk */
 
 /* Talk */
 .bg-grat,
@@ -495,8 +535,9 @@ ol {
 }
 
 .hero-section .hero-text {
-	padding-top: 40px;
-	padding-bottom: 63px;
+	/*padding-top: 40px;*/
+	/*padding-bottom: 63px;*/
+	/*background-size: auto;*/
 	font-family: Times New Roman;
 }
 
@@ -507,29 +548,19 @@ ol {
 	color: #ffffff;
 	letter-spacing: 2px;
 	margin-left: 40px;
-	/*text-shadow: 0 0 0.1em #000000;*/
 	text-shadow: #000000 1px 0 10px;
 	text-shadow: 1px 1px 2px #000000, 0 0 1em #000000, 0 0 0.2em #000000;
-
-	/*background-color: #c9fffd;*/
-	/*text-transform: uppercase;*/
 }
 
 .hero-section .hero-text h2 {
 	font-size: 55px;
 	color: #000000;
-	line-height: 80px;
+	/*line-height: 80px;*/
 	font-weight: 750;
 	margin-left: 40px;
-	margin-top: 10px;
-	/*margin-bottom: 35px;*/
+	margin-top: 60px;
 	font-family: Times New Roman;
-	/*text-shadow: 0 0 0.1em #ffffff;*/
-	/*text-shadow: #ffffff 1px 0 10px;*/
 	text-shadow: 1px 1px 2px #ffffff, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
-/*	background-color:#ffffff;*/
-
-	
 }
 
 /*---------------------
@@ -547,13 +578,12 @@ timer {
 
 
 .counter-section {
-	padding: 10px 0px;
-	height: 125px;
+	padding: 20px 0px;
+	/*height: 125px;*/
   	width: 1140px;
   	margin-left: auto;
   	margin-right: auto;
   	margin-bottom: 20px;
-
 }
 
 .counter-section .counter-text span {
@@ -566,7 +596,7 @@ timer {
 	/*font-size: 20px;*/
 	font-weight: 400;
 	line-height: 30px;
-	margin-top: 10px;
+	/*margin-top: 0px;*/
 }
 
 
@@ -2753,23 +2783,28 @@ timer {
 }
 
 
+
+
 nav > .nav.nav-tabs{
 
   border: none;
     color:#fff;
-    background:#018a41;
+    background:linear-gradient(-90deg,#018a41, #04dbd1);
     border-radius:0;
 
 }
 nav > div a.nav-item.nav-link,
 nav > div a.nav-item.nav-link.active
 {
-  border: none;
+  	border: 1px groove #ddd;
     padding: 18px 25px;
+    width: 25px;
+    position: static;
     color:#fff;
-    background:linear-gradient(-90deg,#018a41, #04dbd1);
+    /*background:linear-gradient(-90deg,#018a41, #04dbd1);*/
     border-radius:0;
 }
+
 
 nav > div a.nav-item.nav-link.active:after
  {
@@ -2780,10 +2815,12 @@ nav > div a.nav-item.nav-link.active:after
   border: 15px solid transparent;
   border-top-color: #e7b03c ;
 }
+
+
 .tab-content{
   	background: #fdfdfd;
     line-height: 25px;
-    border: 1px solid #ddd;
+    border: 1px groove #ddd;
     border-top:5px solid #e7b03c
     border-bottom:5px solid #e7b03c
     padding:30px 25px;
@@ -2791,6 +2828,7 @@ nav > div a.nav-item.nav-link.active:after
 
 nav > div a.nav-item.nav-link:hover,
 nav > div a.nav-item.nav-link:focus
+
 {
   border: none;
     background: #e7b03c;
@@ -2798,4 +2836,49 @@ nav > div a.nav-item.nav-link:focus
     border-radius:0;
     transition:background 0.20s linear;
 }
-	
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  background:linear-gradient(-90deg,#018a41, #04dbd1);
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 73.5px;
+  transition: 0.4s;
+  font-size: 18px;
+  border: 2px groove #ddd;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  background:#e7b03c;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  background:#e7b03c;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
