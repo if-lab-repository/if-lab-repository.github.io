@@ -2884,3 +2884,22 @@ nav > div a.nav-item.nav-link:focus
   border-top: none;
 }
 
+.button {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 1px 10px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 50px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41)), -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41));
+	background-image: -o-linear-gradient(left, #04dbd1 0%, #018a41 100%), -o-linear-gradient(left, #04dbd1 0%, #018a41 100%);
+	background-image: linear-gradient(to right, #04dbd1 0%, #018a41 100%), linear-gradient(to right, #04dbd1 0%, #018a41 100%);
+}
+
+.modal-title
+{
+	font-size: 25px;
+	font-weight: 600;
+	font-family: Times New Roman;
+}
