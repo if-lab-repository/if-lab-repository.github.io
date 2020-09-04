@@ -194,7 +194,7 @@ ol {
 .open-section {
 	/*padding: 10px 0px;*/
 	height: 60px;
-  	width: 1140px;
+  	width: 1115px;
   	margin-left: auto;
   	margin-right: auto;
   	/*margin-bottom: 20px;*/
@@ -219,7 +219,7 @@ ol {
 .Otalk-section {
 	/*padding: 10px 0px;*/
 	height: 140px;
-  	width: 1140px;
+  	width: 1115px;
   	margin-left: auto;
   	margin-right: auto;
   	/*margin-bottom: 20px;*/
@@ -257,7 +257,7 @@ ol {
 .talk-section {
 	/*padding: 10px 0px;*/
 	height: 180px;
-  	width: 1140px;
+  	width: 1115px;
   	margin-left: auto;
   	margin-right: auto;
   	/*margin-bottom: 20px;*/
@@ -300,8 +300,8 @@ ol {
 }
 .cut-section {
 	/*padding: 10px 0px;*/
-	height: 20px;
-  	width: 1140px;
+	height: 10px;
+  	width: 1115px;
   	margin-left: auto;
   	margin-right: auto;
   	/*margin-bottom: 20px;*/
@@ -309,6 +309,49 @@ ol {
 
 /* cut */
 
+
+/* Zoom */
+.bg-graZoom,
+.site-btnZoom {
+	background-image: -o-linear-gradient(330deg, #f2f2f2 0%, #f2f2f2 100%), -o-linear-gradient(330deg, #f2f2f2 0%, #f2f2f2 100%);
+	background-image: linear-gradient(120deg, #f2f2f2 0%, #f2f2f2 100%), linear-gradient(120deg, #f2f2f2 0%,#f2f2f2 100%);
+}
+.Zoom-section {
+	/*padding: 10px 0px;*/
+	height: 50px;
+  	width: 1115px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	/*margin-bottom: 20px;*/
+}
+
+.Zoom-section .Zoom-text span {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.Zoom-section .Zoom-text h2 {
+	color: #007acc;
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: 600;
+	text-align: left;
+	line-height:40px;
+	font-family: Times New Roman;
+}
+
+.Zoom-section .Zoom-text h3 {
+	color: #007acc;
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: 900;
+	text-align: left;
+	margin-top: 10px;
+	line-height:40px;
+	font-family: Times New Roman;
+}
+
+/* cut */
 
 
 /* buttons */
@@ -2839,7 +2882,7 @@ nav > div a.nav-item.nav-link:focus
 
 
 
-/* Style the tab */
+/* Style the tab Participation*/
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -2863,6 +2906,7 @@ nav > div a.nav-item.nav-link:focus
   color: white
 
 }
+
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -2896,6 +2940,58 @@ nav > div a.nav-item.nav-link:focus
 	background-image: -o-linear-gradient(left, #04dbd1 0%, #018a41 100%), -o-linear-gradient(left, #04dbd1 0%, #018a41 100%);
 	background-image: linear-gradient(to right, #04dbd1 0%, #018a41 100%), linear-gradient(to right, #04dbd1 0%, #018a41 100%);
 }
+
+
+/* Style the tab Schedule*/
+.tab2 {
+  overflow: hidden;
+  /*width:1140px;*/
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  background:linear-gradient(-90deg,#018a41, #04dbd1);
+
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width:568.5px;
+  padding: 14px ;
+  transition: 0.4s;
+  font-size: 20px;
+  border: 2px groove #ddd;
+  font-weight: bold;
+  color: white
+
+}
+
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: #ddd;
+  background:#e7b03c;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+  background-color: #ccc;
+  background:#e7b03c;
+}
+
+/* Style the tab content */
+.tab2content {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
 
 .modal-title
 {
