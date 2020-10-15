@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
         
-        <title>Javascript open link without click</title> 
+        <title>PIM Registration</title> 
         
         <style> 
             .gfg { 
@@ -35,18 +35,31 @@
         </style> 
 
         <script> 
-            function myFunction() { 
-                window.open("https://docs.google.com/forms/d/e/1FAIpQLSd4OSJoflkrb6ZigpNs7ac_WcvI_jA8SIzpGXtkIMOY1Scy8Q/viewform?usp=sf_link", "_top"); 
+            function myFunction() {
+
+                // let open = window.open('about:blank')
+
+                // if (open === null || typeof(open) === 'undefined') {
+                //   window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSd4OSJoflkrb6ZigpNs7ac_WcvI_jA8SIzpGXtkIMOY1Scy8Q/viewform?usp=sf_link'
+                //   return
+                // }
+
+                // setTimeout(() => {
+                //   open.location = 'https://docs.google.com/forms/d/e/1FAIpQLSd4OSJoflkrb6ZigpNs7ac_WcvI_jA8SIzpGXtkIMOY1Scy8Q/viewform?usp=sf_link'
+                // }, 300)
+
+                setTimeout('window.open("https://docs.google.com/forms/d/e/1FAIpQLSd4OSJoflkrb6ZigpNs7ac_WcvI_jA8SIzpGXtkIMOY1Scy8Q/viewform?usp=sf_link","_self");', 300);
             } 
         </script> 
     </head> 
     <body> 
 
 
-    <div class = "gfg" onmouseover = "myFunction()"> 
+    <div class = "gfg" onmouseover = "myFunction()">
             <div id="preloder">
+                <b>Click to Restriction</b>
                 <div class="loader" ></div>
-            </div> 
+            </div>  
     </div>
         
 
