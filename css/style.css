@@ -188,8 +188,8 @@ ol {
 /* open */
 .bg-grao,
 .site-btns {
-	background-image: -o-linear-gradient(330deg, #04dbd1 0%, #018a41 100%), -o-linear-gradient(330deg, #595959 0%, #595959 100%);
-	background-image: linear-gradient(120deg, #04dbd1 0%, #018a41 100%), linear-gradient(120deg, #595959 0%, #595959 100%);
+	background-image: -o-linear-gradient(330deg, #7ba7d8 0%, #00abe6 100%), -o-linear-gradient(330deg, #595959 0%, #595959 100%);
+	background-image: linear-gradient(120deg, #7ba7d8 0%, #00abe6 100%), linear-gradient(120deg, #595959 0%, #595959 100%);
 }
 .open-section {
 	/*padding: 10px 0px;*/
@@ -364,9 +364,9 @@ ol {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41)), -webkit-gradient(linear, left top, right top, from(#04dbd1), to(#018a41));
-	background-image: -o-linear-gradient(left, #7ba7d8 0%, #00abe6 100%), -o-linear-gradient(left, #04dbd1 0%, #018a41 100%);
-	background-image: linear-gradient(to right, #7ba7d8 0%, #00abe6 100%), linear-gradient(to right, #04dbd1 0%, #018a41 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#7ba7d8), to(#00abe6)), -webkit-gradient(linear, left top, right top, from(#7ba7d8), to(#00abe6));
+	background-image: -o-linear-gradient(left, #7ba7d8 0%, #00abe6 100%), -o-linear-gradient(left, #7ba7d8 0%, #00abe6 100%);
+	background-image: linear-gradient(to right, #7ba7d8 0%, #00abe6 100%), linear-gradient(to right, #7ba7d8 0%, #00abe6 100%);
 }
 
 .site-btn {
@@ -2952,7 +2952,7 @@ nav > div a.nav-item.nav-link:focus
   height: 100%;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  background:linear-gradient(-90deg,#018a41, #04dbd1);
+  background:linear-gradient(-90deg,#7ba7d8 ,  #00abe6);
 
 }
 
