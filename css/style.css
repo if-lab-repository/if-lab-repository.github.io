@@ -150,7 +150,7 @@ ol {
 
 .spad-2 {
 	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 00px;
 }
 
 
@@ -603,7 +603,7 @@ ol {
 	margin-left: 40px;
 	margin-top: 60px;
 	font-family: Times New Roman;
-	text-shadow: 1px 1px 2px #ffffff, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
+	text-shadow: 2px 2px 5px #ffffff, 0 0 0.1em #00abe6, 0 0 0.2em #ffffff;
 }
 
 /*---------------------
